@@ -13,9 +13,13 @@ Pip the relevant Python packages:
   - FastAPI
   - BaseModel
   - Uvicorn
+
 Clone repo and cd into folder
+
 Run extract_forward_curve.py to extract LIBOR & SOFR from Pensford and store it in a SQLite DB
+
 Run 'uvicorn payload_api:app --reload' in the command line, and it should provide you the link to your localhost (e.g. http://127.0.0.1:8000)
+
 Navigate to localhost/docs - from there, you should see payLoad API, where you can input the features of the loan and see the output below
 
 # Time spent:
